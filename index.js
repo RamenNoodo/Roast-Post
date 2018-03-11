@@ -5,7 +5,7 @@ bot.on('message', (message) => {
 
     if(message.content == 'ping') {
         //message.reply('pong');
-        message.channel.sendMessage('pong')
+        message.channel.sendMessage('pang')
     }
 
 });
