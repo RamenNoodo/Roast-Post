@@ -3,9 +3,9 @@ const bot = new Discord.Client();
 
 bot.on('message', (message) => {
 
-    if(message.content == 'ping') {
+    if(message.content == 'hello') {
         //message.reply('pong');
-        message.channel.sendMessage('pong')
+        message.channel.sendMessage('hey')
     }
 
 });
